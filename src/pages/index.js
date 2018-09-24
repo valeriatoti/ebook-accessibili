@@ -27,11 +27,11 @@ const IndexPage = () => (
           <div className="box-home-flex">
             <figure>
               <h3>FREE & NO-DRM</h3>
-              <img src="../images/no-drm.svg" alt="Logo NO-DRM" width="75%" height="auto"/>
+              <img src="/static/images/no-drm.svg" alt="Logo NO-DRM" width="75%" height="auto"/>
             </figure>
             <figure>
               <h3>FORMATO EPUB&#160;3</h3>
-              <img src="/images/epub_logo.svg" alt="Logo ePub" width="50%" height="auto"/>
+              <img src="/static/images/epub_logo.svg" alt="Logo ePub" width="50%" height="auto"/>
             </figure>
           </div>
     </section>
