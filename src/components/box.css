@@ -1,0 +1,52 @@
+/* box home */
+.bg-box-home {
+    color: #FF6B59;
+    text-align: center;
+    padding: 3em 0;
+  }
+
+  .bg-box-home h3 {
+    color: #155F6F;
+  }
+
+  .box-home-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box-home-flex > figure {
+    margin: 25px;
+  }
+
+  /* box catologo ebook */
+  .box-flex {
+    padding: 20px;
+  }
+  .box-flex figure {
+    margin: 20px;
+    padding-bottom: 35px;
+  }
+  .box-flex figure img {
+    margin-bottom: 0.65em;
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .box-flex {
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .box-flex figure {
+      width: 40%;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .box-flex figure {
+      width: 27%;
+    }
+  }

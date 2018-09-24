@@ -1,0 +1,101 @@
+/* BUTTON */
+a[role="button"] {
+   font-family: 'Exo', sans-serif;
+   display: inline-block;
+   /* white-space: normal; */
+   /* width: auto; */
+   white-space: nowrap;
+   font-weight: 600;
+ }
+
+ /* -- button donate  -- */
+ a.donate {
+     display: inline-block;
+     margin-top: 0.4em;
+     border: 1px solid #155F6F;
+     border-radius: 4px 0 0 4px;
+     font-size: 1.3rem;
+     text-align: center;
+     line-height: 1em;
+     letter-spacing: 0.1rem;
+     vertical-align: middle;
+     text-transform: uppercase;
+     -ms-touch-action: manipulation;
+     color: #FFF3D8;
+     text-decoration: none;
+     padding: .52em 1em .4em;
+     touch-action: manipulation;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     position: relative;
+     z-index: 1;
+     background: #155F6F;
+     cursor: pointer;
+     white-space: nowrap;
+ }
+
+ a.donate::after {
+   content: '';
+   display: block;
+   border-color: transparent transparent transparent #155F6F;
+   border-style: solid none solid solid;
+   border-width: 1em 0 1em .6em;
+   height: 0;
+   left: 100%;
+   position: absolute;
+   top: 0;
+   width: 0;
+   margin: -1px 1px;
+ }
+
+ a.donate:hover {
+   background: #155F6F;
+   border-color: #155F6F;
+   color: #FFF3D8;
+   opacity: 0.9;
+ }
+
+ a.donate:hover::after {
+   border-left-color: #155F6F;
+ }
+
+ /* -- button download  -- */
+ .btn-download {
+   color: darkred;
+   border: 0.09em solid darkred;
+   padding: 10px 15px;
+   margin: 0.8em 0;
+   border-radius: 50px;
+   text-decoration: none;
+ }
+ .btn-download:hover {
+   text-decoration: none;
+   opacity: 0.85;
+ }
+
+/* -- button red -- */
+.btn-red {
+   text-decoration: none;
+   background: #E7574E;
+   border-radius: 3px;
+   padding: 12px 25px;
+   white-space: normal;
+   margin-bottom: 2rem;
+   color: #F8F5E1;
+   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+   transition: all .2s ease-in-out;
+ }
+.btn-red:hover {
+   transform: scale(1.04);
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    a.donate {
+    margin-left: 0.8em;
+    margin-top: 0;
+    margin-right: 2em;
+    }
+  }
