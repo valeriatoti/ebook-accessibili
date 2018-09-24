@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import NoDrm from '../images/no-drm.svg'
 
 import Layout from '../components/layout'
 
@@ -27,7 +28,7 @@ const IndexPage = () => (
           <div className="box-home-flex">
             <figure>
               <h3>FREE & NO-DRM</h3>
-              <img src="/static/images/no-drm.svg" alt="Logo NO-DRM" width="75%" height="auto"/>
+              <img src={NoDrm} alt="Logo NO-DRM" width="75%" height="auto"/>
             </figure>
             <figure>
               <h3>FORMATO EPUB&#160;3</h3>
