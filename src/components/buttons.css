@@ -22,8 +22,9 @@ a[role="button"] {
      text-transform: uppercase;
      -ms-touch-action: manipulation;
      color: #FFF3D8;
+     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
      text-decoration: none;
-     padding: .52em 1em .4em;
+     padding: .5em 1em .4em;
      touch-action: manipulation;
      -webkit-user-select: none;
      -moz-user-select: none;
