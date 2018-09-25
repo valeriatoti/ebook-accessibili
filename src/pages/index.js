@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import NoDrm from '../images/no-drm.svg'
+import LogoEpub from '../images/epub_logo.svg'
 
 import Layout from '../components/layout'
 
@@ -32,7 +33,7 @@ const IndexPage = () => (
             </figure>
             <figure>
               <h3>FORMATO EPUB&#160;3</h3>
-              <img src="/static/images/epub_logo.svg" alt="Logo ePub" width="50%" height="auto"/>
+              <img src={LogoEpub} alt="Logo ePub" width="50%" height="auto"/>
             </figure>
           </div>
     </section>
