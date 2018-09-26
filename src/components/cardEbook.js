@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 class CardEbook extends React.Component {
   render() {
@@ -10,13 +9,13 @@ class CardEbook extends React.Component {
           alt={this.props.details.alt}
         />
         <figcaption>{this.props.details.description}</figcaption>
-        <Link
+        <a
         role="button"
-        to={this.props.details.download}
+        href={this.props.details.download}
         className="btn-download"
         >
         Scarica l'ePub
-        </Link>
+        </a>
       </figure>
     )
   }
