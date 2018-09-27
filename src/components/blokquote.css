@@ -2,9 +2,10 @@
 
 blockquote.quote-image-cite {
     position: relative;
-    padding: 42px 0 0 70px;
+    padding: 2.255em 0 0 3em;
     margin-bottom: 3em;
     margin-right: 0;
+    margin-left: 0;
     font-size: 1.2em;
     line-height: 1.5;
   }
@@ -41,12 +42,4 @@ blockquote.quote-image-cite {
     position: absolute;
     top: -8px;
     left:0px;
-  }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    blockquote.quote-image-cite {
-      margin-left: 1.65rem;
-      margin-right: 1.65rem;
-    }
   }

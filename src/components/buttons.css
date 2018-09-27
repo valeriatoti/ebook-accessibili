@@ -14,7 +14,7 @@ a[role="button"] {
      margin-top: 0.4em;
      border: 1px solid #155F6F;
      border-radius: 4px 0 0 4px;
-     font-size: 1.3rem;
+     font-size: 1.245rem;
      text-align: center;
      line-height: 1em;
      letter-spacing: 0.1rem;
@@ -93,10 +93,26 @@ a[role="button"] {
  }
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    a.donate {
+ @media (min-width: 576px) {
+  a.donate {
+    margin-left: 0.8em;
+    margin-right: 0;
+  }
+}
+
+ /* Small devices (667px and up) */
+ @media (min-width: 667px) {
+  a.donate {
+    margin-left: 0.8em;
+    margin-top: 0;
+    }
+}
+
+ /* Small devices (720px and up) */
+ @media (min-width: 720px) {
+  a.donate {
     margin-left: 0.8em;
     margin-top: 0;
     margin-right: 2em;
     }
-  }
+}
