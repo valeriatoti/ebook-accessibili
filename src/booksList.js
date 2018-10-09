@@ -1,4 +1,4 @@
-// const img1 = require ('./images/steiner.jpg')
+const img1 = require ('./images/steiner.jpg')
 const img2 = require ('./images/cover-aaron.jpg')
 const img3 = require ('./images/cover-new-clues.jpg')
 
@@ -18,11 +18,11 @@ module.exports = {
       description: 'Aaron Swartz — Una vita per la cultura libera e la giustizia sociale.',
       download: `https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/AARON.epub?raw=true`
      },
-    //  book1: {
-    //     title: 'Il mondo dei Sensi e il mondo dello Spirito',
-    //     image: img1,
-    //     alt: 'Copertina dell\'ebook: Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner',
-    //     description: 'Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner.',
-    //     download: `https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/AARON.epub?raw=true`
-    //  }
+     book1: {
+        title: 'Il mondo dei Sensi e il mondo dello Spirito',
+        image: img1,
+        alt: 'Copertina dell\'ebook: Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner',
+        description: 'Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner.',
+        download: `https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/sensi-e-spirito.epub?raw=true`
+     }
 }
