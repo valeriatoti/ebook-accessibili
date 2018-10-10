@@ -23,8 +23,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Ebook accessibili e gratuiti. Scaricabili liberamente e accessibili anche alle persone con handicap. EPUB 3: formato nativamente accessibile.' },
+            { name: 'keywords', content: 'ebook, ebook accessibili, accessibilità digitale, ePub' },
           ]}
         >
           <html lang="it" />
