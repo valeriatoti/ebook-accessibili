@@ -19,7 +19,7 @@ class PageEbooks extends React.Component {
 
     return (
       <Layout>
-      <h1>Catalog degli ebook accessibili</h1>
+      <h1>Catalogo degli ebook accessibili</h1>
       <main className="box-flex">
         { books }
       </main>
