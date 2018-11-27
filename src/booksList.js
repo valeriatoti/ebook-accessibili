@@ -22,7 +22,7 @@ module.exports = {
         title: 'Il mondo dei Sensi e il mondo dello Spirito',
         image: img1,
         alt: 'Copertina dell\'ebook: Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner',
-        description: 'Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner.',
+        description: 'Il mondo dei Sensi e il mondo dello Spirito',
         download: `https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/sensi-e-spirito.epub?raw=true`
      }
 }
