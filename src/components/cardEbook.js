@@ -15,6 +15,7 @@ class CardEbook extends React.Component {
           <meta itemprop="accessibilityHazard" content="noSoundHazard"/>
           <meta itemprop="accessibilityAPI" content="ARIA"/>
         <img
+          itemprop="image"
           src={this.props.details.image}
           alt={this.props.details.alt}
         />
