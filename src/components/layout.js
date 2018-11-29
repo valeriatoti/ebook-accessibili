@@ -28,6 +28,7 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="it" />
+          <meta name="google-site-verification" content="aWyogKEw31F9btd2WNcXjmb0sVQlGDFjYHA-6HNJEBY" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
