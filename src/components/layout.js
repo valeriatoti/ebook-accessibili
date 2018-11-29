@@ -29,6 +29,21 @@ const Layout = ({ children }) => (
         >
           <html lang="it" />
           <meta name="google-site-verification" content="aWyogKEw31F9btd2WNcXjmb0sVQlGDFjYHA-6HNJEBY" />
+          <script type="application/ld+json">{`
+          {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "Valeria Toti",
+            "url": "https://www.ebookaccessibili.it/",
+            "image": "https://drive.google.com/open?id=1Benl_eVybk4vfs7XwJnsDhi3Lr0lVZtE",
+            "sameAs": "https://www.linkedin.com/in/valeria-toti/",
+            "jobTitle": "ebook developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "ebookaccessibili.it"
+            }
+          }
+          `}</script>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
