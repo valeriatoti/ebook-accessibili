@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => (
-  <footer>
+  <footer role="contentinfo">
     <div className="container-footer">
       <div>
       <p>copyright © 2018 ebookaccessibili.it</p>

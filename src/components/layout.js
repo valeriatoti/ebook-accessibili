@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="it" />
-          <meta name="google-site-verification" content="aWyogKEw31F9btd2WNcXjmb0sVQlGDFjYHA-6HNJEBY" />
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
           <script type="application/ld+json">{`
           {
             "@context": "http://schema.org/",

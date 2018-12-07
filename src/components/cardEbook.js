@@ -24,7 +24,9 @@ class CardEbook extends React.Component {
         role="button"
         href={this.props.details.download}
         className="btn-download"
+        aria-label="Download dell'ebook gratuito e accessibile"
         >
+        <i class="fas fa-download"  aria-hidden />{' '}
         Scarica l'ePub
         </a>
       </figure>
