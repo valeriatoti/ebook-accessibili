@@ -30,7 +30,7 @@ const ContactPage = () => (
             </p>
         </form> */}
 
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form action="/" name="contact" method="post" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
