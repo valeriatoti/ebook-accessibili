@@ -1,0 +1,45 @@
+form#contact input,
+form#contact textarea {
+ min-width: 100%;
+ padding: 8px;
+ display: block;
+ border: 0.085em solid #155F6F;
+ border-radius: 4px;
+}
+
+form#contact button {
+ font-family: 'Exo', sans-serif;
+ font-size: 1.2rem;
+ text-align: center;
+ line-height: 1em;
+ letter-spacing: 0.2rem;
+ vertical-align: middle;
+ text-transform: uppercase;
+ background: #155F6F;
+ border-radius: 4px;
+ padding: 14px 25px 12px 25px;
+ margin-bottom: 2rem;
+ color: #FFF3D8;
+ text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+ transition: all .2s ease-in-out;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+form#contact button:hover {
+ transform: scale(1.04);
+}
+
+@media (min-width: 680px) {
+    form#contact input,
+    form#contact textarea {
+        min-width: 80%;
+    }
+}
+
+@media (min-width: 800px) {
+    form#contact input,
+    form#contact textarea {
+        min-width: 60%;
+    }
+}

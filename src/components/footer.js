@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Footer = () => (
   <footer role="contentinfo">
     <div className="container-footer">
       <div>
+      <p><i class="fas fa-envelope" aria-hidden="true"></i> <Link to="/contatti/">Contattami</Link></p>
       <p>copyright © 2018 ebookaccessibili.it</p>
       </div>
       <div>

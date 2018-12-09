@@ -7,7 +7,6 @@ blockquote.quote-image-cite {
     margin-right: 0;
     margin-left: 0;
     font-size: 1.2em;
-    line-height: 1.5;
   }
 
   blockquote.quote-image-cite::before {
