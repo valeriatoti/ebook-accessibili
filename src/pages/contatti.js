@@ -7,7 +7,7 @@ const ContactPage = () => (
         <h1>Ciao, mi chiamo Valeria Toti <span role="img" aria-label="mano che saluta">👋</span></h1>
         <p className="big-text">Hai una domanda per me?<br/> Vuoi che trasformi il tuo libro in un ebook ben impaginato e accessibile?<br/> Scrivimi, sarò felice di aiutarti se posso.<br/> Qui c'è il form per mandarmi il tuo messaggio:</p>
 
-        <form id="contact" name="contact" method="POST" data-netlify="true">
+        {/* <form id="contact" name="contact" method="POST" data-netlify="true">
             <p>
                 <label for="name">Il tuo nome
                 <input type="text" name="name" id="name" placeholder="Nome" required  aria-required="true" autocomplete="name"/>
@@ -29,6 +29,22 @@ const ContactPage = () => (
                 </button>
             </p>
         </form>
+         */}
+
+         <form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     </Layout>
 )
 
