@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import NoDrm from '../images/no-drm.svg'
 import LogoEpub from '../images/epub_logo.svg'
+import A11Y from '../images/accessibility-icon.svg'
 
 import Layout from '../components/layout'
 
@@ -28,13 +29,18 @@ const IndexPage = () => (
           </h2>
           <div className="box-home-flex">
             <figure>
-              <h3>FREE & NO-DRM</h3>
-              <img src={NoDrm} alt="Logo NO-DRM" width="75%" height="auto"/>
+              <h3>EPUB&#160;3</h3>
+              <img src={LogoEpub} alt="Logo ePub" width="68%" height="auto"/>
             </figure>
             <figure>
-              <h3>FORMATO EPUB&#160;3</h3>
-              <img src={LogoEpub} alt="Logo ePub" width="50%" height="auto"/>
+              <h3>ACCESSIBILITÀ</h3>
+              <img src={A11Y} alt="Logo ePub" width="46%" height="auto"/>
             </figure>
+            <figure>
+              <h3>NO-DRM</h3>
+              <img src={NoDrm} alt="Logo NO-DRM" width="70%" height="auto"/>
+            </figure>
+
           </div>
     </section>
   </Layout>

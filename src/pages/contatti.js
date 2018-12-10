@@ -29,7 +29,7 @@ const ContactPage = () => (
                 </label>
             </p>
             <p>
-                <button>
+                <button type="submit">
                 INVIA
                 </button>
             </p>
