@@ -38,7 +38,7 @@ const IndexPage = () => (
             </figure>
             <figure>
               <h3>NO-DRM</h3>
-              <img src={NoDrm} alt="Logo NO-DRM" width="70%" height="auto"/>
+              <img src={NoDrm} alt="Logo NO-DRM" width="69%" height="auto"/>
             </figure>
 
           </div>
