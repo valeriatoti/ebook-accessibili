@@ -44,16 +44,6 @@ const Layout = ({ children }) => (
             }
           }
           `}</script>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130687964-1"></script>
-          <script>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'UA-130687964-1');
-            `}
-          </script>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
