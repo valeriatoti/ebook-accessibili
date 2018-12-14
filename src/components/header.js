@@ -3,11 +3,11 @@ import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <header
-    role="banner"
     style={{
       background: '#5C4A52',
       marginBottom: '1.45rem',
       color: '#FFF3D8',
+      fontFamily: 'Exo',
     }}
   >
     <div
@@ -17,7 +17,11 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <p style={{
+        margin: 0,
+        fontWeight: 'bold',
+        fontSize: '2.25rem',
+        }}>
         <Link
           to="/"
           style={{
@@ -27,7 +31,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </p>
     </div>
     <div
      style={{

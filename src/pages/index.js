@@ -30,15 +30,15 @@ const IndexPage = () => (
           <div className="box-home-flex">
             <figure>
               <h3>EPUB&#160;3</h3>
-              <img src={LogoEpub} alt="Logo ePub" width="68%" height="auto"/>
+              <img src={LogoEpub} alt="icona: ePub" width="68%"/>
             </figure>
             <figure>
               <h3>ACCESSIBILITÀ</h3>
-              <img src={A11Y} alt="Logo ePub" width="46%" height="auto"/>
+              <img src={A11Y} alt="icona: accessibilità" width="46%"/>
             </figure>
             <figure>
               <h3>NO-DRM</h3>
-              <img src={NoDrm} alt="Logo NO-DRM" width="69%" height="auto"/>
+              <img src={NoDrm} alt="icona: NO-DRM" width="69%"/>
             </figure>
 
           </div>
