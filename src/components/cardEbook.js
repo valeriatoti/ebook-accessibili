@@ -3,12 +3,13 @@ import React from 'react'
 class CardEbook extends React.Component {
   render() {
     return (
-      <figure>
+      <figure itemscope itemtype="http://schema.org/Book">
         <img
+          itemprop="image"
           src={this.props.details.image}
           alt={this.props.details.alt}
         />
-        <figcaption>{this.props.details.description}</figcaption>
+        <figcaption itemprop="name">{this.props.details.description}</figcaption>
         <a
         role="button"
         href={this.props.details.download}
