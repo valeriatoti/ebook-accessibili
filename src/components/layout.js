@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
         >
           <html lang="it" />
           <link rel="preload" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" as="style" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
-          <link rel="preload" href="https://fonts.googleapis.com/css?family=Exo:400,600,700|Ubuntu:400,400i,700,700i" as="font"></link>
+
           <script type="application/ld+json">{`
           {
             "@context": "http://schema.org/",
