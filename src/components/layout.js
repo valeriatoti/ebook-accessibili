@@ -23,27 +23,12 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Ebook accessibili e gratuiti. Scaricabili liberamente e accessibili anche alle persone con handicap. EPUB 3: formato nativamente accessibile.' },
-            { name: 'keywords', content: 'ebook, ebook accessibili, accessibilità digitale, ePub' },
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
           ]}
         >
           <html lang="it" />
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
-          <script type="application/ld+json">{`
-          {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Valeria Toti",
-            "url": "https://www.ebookaccessibili.it/",
-            "image": "https://drive.google.com/open?id=1Benl_eVybk4vfs7XwJnsDhi3Lr0lVZtE",
-            "sameAs": "https://www.linkedin.com/in/valeria-toti/",
-            "jobTitle": "ebook developer",
-            "worksFor": {
-              "@type": "Organization",
-              "name": "ebookaccessibili.it"
-            }
-          }
-          `}</script>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
