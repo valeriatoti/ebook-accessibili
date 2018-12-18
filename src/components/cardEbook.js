@@ -15,7 +15,7 @@ class CardEbook extends React.Component {
         className="btn-download"
         aria-label="Scarica l'ePub"
         >
-        <i class="fas fa-download"  aria-hidden="true"/>{' '}
+        <i className="fas fa-download"  aria-hidden="true"/>{' '}
         Scarica l'ePub
         </a>
       </figure>
