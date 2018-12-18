@@ -28,7 +28,23 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="it" />
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+          <link rel="preload" as="style" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+
+          <script type="application/ld+json">{`
+            {
+              "@context": "http://schema.org/",
+              "@type": "Person",
+              "name": "Valeria Toti",
+              "url": "https://www.ebookaccessibili.it/",
+              "image": "https://drive.google.com/open?id=1Benl_eVybk4vfs7XwJnsDhi3Lr0lVZtE",
+              "sameAs": "https://www.linkedin.com/in/valeria-toti/",
+              "jobTitle": "ebook developer",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "ebookaccessibili.it"
+              }
+            }
+          `}</script>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
