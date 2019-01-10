@@ -7,6 +7,7 @@ const Footer = () => (
       <div>
       {/* <p><i class="fas fa-envelope" aria-hidden="true"></i> <Link to="/contatti/">Contattami</Link></p> */}
       <p>copyright © 2018 ebookaccessibili.it</p>
+      <p>Valeria Toti — P. IVA 13150691007</p>
       </div>
       <div>
       <p>
