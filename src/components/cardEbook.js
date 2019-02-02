@@ -2,16 +2,17 @@ import React from 'react'
 
 class CardEbook extends React.Component {
   render() {
+    const { image, alt, description, download } = this.props.details
     return (
       <figure>
         <img
-          src={this.props.details.image}
-          alt={this.props.details.alt}
+          src={image}
+          alt={alt}
         />
-        <figcaption><cite>{this.props.details.description}</cite></figcaption>
+        <figcaption><cite>{description}</cite></figcaption>
         <a
         role="button"
-        href={this.props.details.download}
+        href={download}
         className="btn-download"
         aria-label="Scarica l'ePub"
         >
