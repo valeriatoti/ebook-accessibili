@@ -6,7 +6,7 @@ const About = () => (
     <Layout>
         <SEO
             pageTitle="Valeria Toti"
-            description="Se hai bisgno di creare il tuo ebook, questo è il sito giusto. Vuoi un ebook ben ipaginato, con una grafica che metta in risalto i tuoi contenuti? Inoltre vuoi che il tuo ebook sia accessibile anche ai disabili?"
+            description="Se hai bisgno di creare il tuo ebook, questo è il sito giusto. Vuoi un ebook ben impaginato, con una grafica che metta in risalto i tuoi contenuti? Inoltre vuoi che il tuo ebook sia accessibile anche ai disabili?"
         />
 
         <blockquote><p>Mi chiamo Valeria Toti, ho sviluppato gli ebook che trovi su questo sito.</p>
