@@ -3,11 +3,14 @@ import { Link } from 'gatsby'
 import NoDrm from '../images/no-drm.svg'
 import LogoEpub from '../images/epub_logo.svg'
 import A11Y from '../images/accessibility-icon.svg'
-
+import SEO from '../components/SEO'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      description="Ebook gratuiti e senza DRM. Questi libri digitali possono essere letti anche dalle persone ipovedenti o non vedenti. Leggi liberamente, scegli il tuo libro."
+    />
     <section className="container">
       <h1>Libri digitali accessibili</h1>
       <blockquote className="quote-image-cite">

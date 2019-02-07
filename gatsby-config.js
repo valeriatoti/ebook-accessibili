@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'ebook accessibili',
+    title: 'ebook accessibili: libri adatti anche ai disabili',
+    author: '@valeria_toti',
+    siteUrl: 'https://www.ebookaccessibili.it/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
