@@ -14,8 +14,8 @@ const IndexPage = () => (
     <section className="container">
       <h1>Libri digitali accessibili</h1>
       <blockquote className="quote-image-cite">
-        Gli ebook che trovi su questo sito sono creati con cura, rispettando le <em><a href="https://www.w3.org/Submission/2017/SUBM-epub-a11y-20170125/">specifiche dell'accessibilità</a></em>, in modo che tutti, anche le persone disabili, possano accedere al contenuto. Gli ebook sono gratuiti e senza <abbr title="Digital Rights Management: gestione dei diritti digitali." className="small-caps">DRM</abbr>.
-        <cite><a href="https://github.com/valeriatoti">
+        Gli ebook che trovi su questo sito sono creati con cura, rispettando le <em><a href="https://www.w3.org/Submission/2017/SUBM-epub-a11y-20170125/" rel="nofollow">specifiche dell'accessibilità</a></em>, in modo che tutti, anche le persone disabili, possano accedere al contenuto. Gli ebook sono gratuiti e senza <abbr title="Digital Rights Management: gestione dei diritti digitali." className="small-caps">DRM</abbr>.
+        <cite><a href="https://github.com/valeriatoti" rel="nofollow">
       valeria toti</a><br/>
       ebook developer
       </cite>

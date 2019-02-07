@@ -11,10 +11,10 @@ const Footer = () => (
       </div>
       <div>
       <p>
-      Tutti gli ebook sono validati con <a href="https://github.com/idpf/epubcheck">ePubChecker</a> e
-      <a href="https://daisy.github.io/ace/"> Ace by DAISY</a>
+      Tutti gli ebook sono validati con <a href="https://github.com/idpf/epubcheck" rel="nofollow">ePubChecker</a> e
+      <a href="https://daisy.github.io/ace/" rel="nofollow"> Ace by DAISY</a>
       </p>
-      <p>Questo sito è realizzato con <a href="https://www.gatsbyjs.org/">Gatsby</a></p>
+      <p>Questo sito è realizzato con <a href="https://www.gatsbyjs.org/" rel="nofollow">Gatsby</a></p>
       </div>
     </div>
   </footer>
