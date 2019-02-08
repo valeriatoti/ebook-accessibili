@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaDownload } from 'react-icons/fa'
 
 class CardEbook extends React.Component {
   render() {
@@ -16,7 +17,8 @@ class CardEbook extends React.Component {
         className="btn-download"
         aria-label="Scarica l'ePub"
         >
-        <i className="fas fa-download"  aria-hidden="true"/>{' '}
+        <FaDownload aria-hidden="true"/>
+        {' '}
         Scarica l'ePub
         </a>
       </figure>
