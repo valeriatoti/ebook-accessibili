@@ -1,14 +1,48 @@
 import React from 'react'
 // import { Link } from 'gatsby'
+import { FaGithub } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaMedium } from 'react-icons/fa'
 
 const Footer = () => (
   <footer>
     <div className="container-footer">
       <div>
-      {/* <p><i class="fas fa-envelope" aria-hidden="true"></i> <Link to="/contatti/">Contattami</Link></p> */}
+      <a
+      href="https://github.com/valeriatoti"
+      rel="nofollow"
+      className="social-icon"
+      >
+      <FaGithub
+      role="img"
+      aria-label="icona Github"
+      />
+      </a>
+      <a
+      href="https://www.linkedin.com/in/valeria-toti/"
+      rel="nofollow"
+      className="social-icon"
+      >
+      <FaLinkedin
+      role="img"
+      aria-label="icona Linkedin"
+      />
+      </a>
+      <a
+      href="https://medium.com/@valeria.toti"
+      rel="nofollow"
+      className="social-icon"
+      >
+      <FaMedium
+      role="img"
+      aria-label="icona Medium"
+      />
+      </a>
+
       <p>copyright © 2019 ebookaccessibili.it</p>
       <p>Valeria Toti — P. IVA 13150691007 | Contatti: <strong>valeria@ebookaccessibili.it</strong></p>
       </div>
+
       <div>
       <p>
       Tutti gli ebook sono validati con <a href="https://github.com/idpf/epubcheck" rel="nofollow">ePubChecker</a> e

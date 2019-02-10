@@ -34,6 +34,8 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-analytics`,
