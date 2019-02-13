@@ -1,8 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/SEO'
 
 const ResourcePage = () => (
     <Layout>
+        <SEO
+        pageTitle="Risorse per editori e sviluppatori di ebook"
+        description="Ecco un elenco di strumenti e risorse di riferimento per chi desidera creare e pubblicare libri digitali accessibili"
+        />
         <h1>Risorse per gli editori</h1>
         <p>Strumenti e documentazione di riferimento per chi realizza e pubblica libri digitali accessibili.</p>
         <h2>Standard</h2>
