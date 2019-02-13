@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from '../components/SEO'
 import Layout from '../components/layout'
 
-const About = () => (
+const AboutPage = () => (
     <Layout>
         <SEO
             pageTitle="Valeria Toti"
@@ -22,4 +22,4 @@ const About = () => (
     </Layout>
 )
 
-export default About
+export default AboutPage

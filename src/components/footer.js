@@ -1,8 +1,6 @@
 import React from 'react'
 // import { Link } from 'gatsby'
-import { FaGithub } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
-import { FaMedium } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => (
   <footer>
@@ -36,6 +34,16 @@ const Footer = () => (
       <FaMedium
       role="img"
       aria-label="icona Medium"
+      />
+      </a>
+      <a
+      href="https://twitter.com/valeria_toti"
+      rel="nofollow"
+      className="social-icon"
+      >
+      <FaTwitter
+      role="img"
+      aria-label="icona Twitter"
       />
       </a>
 
