@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Navbar from './navbar/Navbar'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,25 +10,7 @@ const Header = ({ siteTitle }) => (
       fontFamily: 'Exo',
     }}
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{margin: 0,}}>
-        <Link
-          to="/"
-          style={{
-            color: '#FFF3D8',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <Navbar />
     <div
      style={{
       background: '#F6F2EE',

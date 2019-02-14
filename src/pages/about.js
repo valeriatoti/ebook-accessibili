@@ -8,8 +8,9 @@ const AboutPage = () => (
             pageTitle="Valeria Toti"
             description="Se hai bisgno di creare il tuo ebook, questo è il sito giusto. Vuoi un ebook ben impaginato, con una grafica che metta in risalto i tuoi contenuti? Inoltre vuoi che il tuo ebook sia accessibile anche ai disabili?"
         />
-
-        <blockquote><p>Mi chiamo Valeria Toti, ho sviluppato gli ebook che trovi su questo sito.</p>
+        <blockquote>
+        <h1>Chi sono</h1>
+        <p>Mi chiamo Valeria Toti, ho sviluppato gli ebook che trovi su questo sito.</p>
 
         <p>Hai presente l'artigiano che lavora nel proprio laboratorio, io immagino uno di quegli artigiani che lavorano il legno... L'artigiano è totalmente assorto in quello che fa, tutto il suo lavoro è teso a raggiungere un obiettivo che lui solo conosce. L'artigiano è un mago, ha il potere di creare. Crea per sé e per gli alri.</p>
 
