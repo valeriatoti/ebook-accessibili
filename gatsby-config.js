@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Libri digitali accessibili',
-        short_name: 'ebook accessibili',
+        name: 'ebook accessibili',
+        short_name: 'ePubA11Y',
         lang: 'it',
         start_url: '/',
         background_color: '#155F6F',
