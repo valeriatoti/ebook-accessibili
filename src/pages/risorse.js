@@ -27,7 +27,7 @@ const ResourcePage = () => (
             <li><a href="http://diagramcenter.org/59-image-guidelines-for-epub-3.html">Image Guidelines for EPUB 3 – [DIAGRAM CENTER]</a></li>
             <li><a href="http://kb.daisy.org/publishing/docs/html/images.html">Image Descriptions – [DAISY]</a></li>
             <li><a href="http://kb.daisy.org/publishing/docs/metadata/schema-org.html">Accessibility Metadata – [DAISY]</a></li>
-            <li><a href="https://www.editeur.org/files/ONIX%20for%20books%20-%20code%20lists/ONIX_BookProduct_Codelists_Issue_44.html#codelist196">ONIX Code List 196 – [Editeur]</a></li>
+            <li><a href="https://www.editeur.org/files/ONIX%20for%20books%20-%20code%20lists/ONIX_BookProduct_Codelists_Issue_44.html#codelist196">ONIX Code List 196: EPUB Accessibility Details – [Editeur]</a></li>
         </ul>
         <h2><FaToolbox /> Strumenti</h2>
         <ul>
