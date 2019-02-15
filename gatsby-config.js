@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'ebook accessibili',
     author: '@valeria_toti',
+    image: "/images/ebook-accessibili.jpg",
     siteUrl: 'https://www.ebookaccessibili.it',
   },
   plugins: [

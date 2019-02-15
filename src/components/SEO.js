@@ -11,6 +11,7 @@ const siteQuery = graphql`
       siteMetadata {
         title
         author
+        image
         siteUrl
       }
     }
@@ -19,6 +20,7 @@ const siteQuery = graphql`
 
 const SEO = ({
   pageTitle,
+  newImage,
   description,
   keywords,
   meta,
@@ -30,6 +32,7 @@ const SEO = ({
         htmlAttributes={{ lang: 'it' }}
         title={pageTitle || data.site.siteMetadata.title}
         titleTemplate={pageTitle && `%s | ${data.site.siteMetadata.title}`}
+        image={newImage || data.site.siteMetadata.image}
         meta={[
           { name: 'description', content: description },
           { name: 'keywords', content: keywords },
