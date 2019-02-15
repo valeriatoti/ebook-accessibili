@@ -13,7 +13,7 @@ const ResourcePage = () => (
         />
         <h1>Risorse per gli editori</h1>
         <p>Strumenti e documentazione di riferimento per chi realizza e pubblica libri digitali accessibili.</p>
-        <h2><FaCrown /> Standard</h2>
+        <h2><FaCrown aria-hidden="true"/> Standard</h2>
         <ul>
             <li><a href="https://www.w3.org/TR/html/">HTML – [W3C]</a></li>
             <li><a href="https://www.w3.org/Translations/WCAG21-it/">WCAG 2.1 – [W3C]</a></li>
@@ -21,7 +21,7 @@ const ResourcePage = () => (
             <li><a href="https://www.w3.org/TR/2017/REC-dpub-aria-1.0-20171214/">Digital Publishing WAI-ARIA – [W3C]</a></li>
             <li><a href="https://www.w3.org/Submission/2017/SUBM-epub-a11y-20170125/#sec-disc-package">Metadata – [W3C]</a></li>
         </ul>
-        <h2><FaFileAlt /> Documentazione</h2>
+        <h2><FaFileAlt aria-hidden="true"/> Documentazione</h2>
         <ul>
             <li><a href="http://kb.daisy.org/publishing/docs/">Accessible Publishing Knowledge Base – [DAISY]</a></li>
             <li><a href="https://www.vitalsource.com/products/guida-di-riferimento-rapido-all-39-editoria-bisg-the-book-industry-study-vbisgaccessibilityit">Guida all'editoria accessibile – [BISG]</a></li>
@@ -30,7 +30,7 @@ const ResourcePage = () => (
             <li><a href="http://kb.daisy.org/publishing/docs/metadata/schema-org.html">Accessibility Metadata – [DAISY]</a></li>
             <li><a href="https://www.editeur.org/files/ONIX%20for%20books%20-%20code%20lists/ONIX_BookProduct_Codelists_Issue_44.html#codelist196">ONIX Code List 196: EPUB Accessibility Details – [Editeur]</a></li>
         </ul>
-        <h2><FaToolbox /> Strumenti</h2>
+        <h2><FaToolbox aria-hidden="true"/> Strumenti</h2>
         <ul>
             <li><a href="https://github.com/w3c/epubcheck">EPUBCheck validator for EPUB – [DAISY]</a></li>
             <li><a href="https://inclusivepublishing.org/toolbox/accessibility-checker/">ACE, Accessibility Checking Tool – [DAISY]</a></li>
@@ -38,7 +38,7 @@ const ResourcePage = () => (
             <li><a href="http://diagramcenter.org/making-images-accessible.html">Accessible Images – [DIAGRAM CENTER]</a></li>
             <li><a href="https://mathmlcloud.org/">MathML Cloud – [DIAGRAM CENTER]</a></li>
         </ul>
-        <h2><FaBookReader /> Libri</h2>
+        <h2><FaBookReader aria-hidden="true"/> Libri</h2>
         <ul>
             <li><a href="https://amzn.to/2GrnU5o">Accessible EPUB 3 – [Matt Garrish]</a></li>
         </ul>
