@@ -25,6 +25,10 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
+background: #5C4A52;
+color: #FFF3D8;
+fontFamily: Exo;
+margin: 0;
   @media (min-width: 768px) {
     display: flex;
     align-items: center;

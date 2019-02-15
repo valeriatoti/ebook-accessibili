@@ -1,15 +1,8 @@
 import React from 'react'
 import Navbar from './navbar/Navbar'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: '#5C4A52',
-      marginBottom: '1.45rem',
-      color: '#FFF3D8',
-      fontFamily: 'Exo',
-    }}
-  >
+const Header = () => (
+  <header>
   <Navbar />
     <div
      style={{

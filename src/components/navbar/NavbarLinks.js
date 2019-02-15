@@ -47,6 +47,7 @@ export default class NavbarLinks extends Component {
 }
 
 const LinkWrapper = styled.ul`
+margin: 0;
   li {
     list-style-type: none;
     margin: 0;
@@ -67,6 +68,9 @@ const LinkWrapper = styled.ul`
   }
   height: ${props => (props.open ? '170px' : '0px')};
   overflow: hidden;
+  @media (min-width: 480px) {
+    height: ${props => (props.open ? '190px' : '0px')};
+  }
   @media (min-width: 768px) {
     height: auto;
     display: flex;

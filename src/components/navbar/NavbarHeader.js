@@ -25,7 +25,7 @@ export default class NavbarHeader extends Component {
 }
 
 const HeaderWrapper = styled.div`
-  padding: 1.45rem 1.2rem;
+  padding: 1.45rem 0.9rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,6 +44,7 @@ const HeaderWrapper = styled.div`
     cursor: pointer;
   }
   @media (min-width: 768px) {
+    padding: 1.45rem 1.4rem;
     .toggle-icon {
       display: none;
     }
