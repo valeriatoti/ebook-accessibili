@@ -15,7 +15,7 @@ class CardEbook extends React.Component {
         />
         <figcaption>
           <cite itemprop="name"><b>{title}{' '}{subtitle}</b></cite>
-          <p>di <span itemprop="author">{author}</span></p>
+          <p>di <span itemprop="author" itemscope itemtype="http://schema.org/Person">{author}</span></p>
           </figcaption>
         <a
         role="button"
