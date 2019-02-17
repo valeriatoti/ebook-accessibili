@@ -7,13 +7,15 @@ class CardEbook extends React.Component {
     const imgCover = require(`../images/${image}.jpg`)
     return (
       <figure itemscope="" itemtype="http://schema.org/Book">
+        <meta itemprop="bookFormat" content="EBook"/>
         <img
+          itemprop="image"
           src={imgCover}
           alt={alt}
         />
         <figcaption>
           <cite itemprop="name"><b>{title}{' '}{subtitle}</b></cite>
-          <p itemprop="author">di {author}</p>
+          <p>di <span itemprop="author">{author}</span></p>
           </figcaption>
         <a
         role="button"
