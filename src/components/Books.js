@@ -11,8 +11,8 @@ padding: 20px;
     figure {
         margin: 20px;
         padding-bottom: 35px;
-        img {
-            margin-bottom: 0.65em;
+        .img-cover {
+            margin-bottom: 0.75em;
         }
     }
 @media (min-width: 576px) {
@@ -28,22 +28,20 @@ padding: 20px;
     figure {
         width: 27%;
     }
-}
-`
+}`
 
 function Books() {
   return (
     <StaticQuery
       query={bookQuery}
-      render={data => {
-        return (
-            <BooksContainer>
-                {data.allBooksJson.edges.map(({ node: book }) => {
-                return <Book key={book.id} book={book} />;
+      render={data => (
+          <BooksContainer>
+              {data.allBooksJson.edges.map(({ node: book }) => {
+              return <Book key={book.id} book={book} />
                 })}
-            </BooksContainer>
+          </BooksContainer>
         )
-      }}
+      }
     />
   )
 }
@@ -59,7 +57,14 @@ const bookQuery = graphql`
           title
           subtitle
           author
-          image
+          image {
+            childImageSharp {
+              fluid(maxHeight: 900) {
+                src
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           alt
           download
         }

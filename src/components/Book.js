@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaDownload } from 'react-icons/fa'
-// import Img from 'gatsby-image'
+import Img from 'gatsby-image'
 
 function Book({ book }) {
-  const imgCover = require(`../images/${book.image}.jpg`)
   return (
     <figure itemscope itemtype="http://schema.org/Book">
       <meta itemprop="bookFormat" content="EBook"/>
-      <img
+      <Img
         itemprop="image"
-        src={imgCover}
+        className="img-cover"
+        fluid={book.image.childImageSharp.fluid}
         alt={book.alt}
       />
       <figcaption>
