@@ -2,7 +2,7 @@
 .bg-box-home {
     color: #FF6B59;
     text-align: center;
-    padding: 3em 0;
+    padding: 0.8rem 0;
   }
 
   .bg-box-home h3 {
@@ -13,6 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 2.8rem 0 2rem;
   }
 
   .box-home-flex > figure {
