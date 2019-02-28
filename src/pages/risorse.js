@@ -24,6 +24,7 @@ const ResourcePage = () => (
         <h2><FaFileAlt aria-hidden="true"/> Documentazione</h2>
         <ul>
             <li><a href="http://kb.daisy.org/publishing/docs/">Accessible Publishing Knowledge Base – [by DAISY]</a></li>
+            <li><a href="http://www.idpf.org/epub/profiles/edu/structure/">EPUB for Education Structural Semantics – [IDPF]</a></li>
             <li><a href="https://www.vitalsource.com/products/guida-di-riferimento-rapido-all-39-editoria-bisg-the-book-industry-study-vbisgaccessibilityit">Guida all'editoria accessibile – [by BISG]</a></li>
             <li><a href="http://diagramcenter.org/59-image-guidelines-for-epub-3.html">Image Guidelines for EPUB 3 – [by DIAGRAM CENTER]</a></li>
             <li><a href="http://kb.daisy.org/publishing/docs/html/images.html">Image Descriptions – [by DAISY]</a></li>

@@ -7,24 +7,24 @@ export default class NavbarLinks extends Component {
     links: [
       {
         id: 0,
-        path: '/',
-        name: 'home',
-      },
-      {
-        id: 1,
         path: '/ebook-accessibili/',
         name: 'ebook',
       },
       {
-        id: 2,
+        id: 1,
         path: '/risorse/',
         name: 'risorse',
       },
       {
+        id: 2,
+        path: '/checklist/',
+        name: 'checklist',
+      },
+      {
         id: 3,
         path: '/about/',
-        name: 'chi sono',
-      },
+        name: 'about',
+      }
     ],
   }
   render() {
