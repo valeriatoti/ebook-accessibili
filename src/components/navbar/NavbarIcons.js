@@ -41,6 +41,7 @@ const IconWrapper = styled.div`
   .icon {
     font-size: 1.3rem;
     cursor: pointer;
+    transition:all 0.5s ease-in-out;
   }
   .twitter-icon {
     color: #3ab7f0;

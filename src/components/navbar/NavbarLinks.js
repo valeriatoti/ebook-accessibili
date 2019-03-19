@@ -60,6 +60,7 @@ margin: 0;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transition:all 0.5s ease-in-out;
     &:hover {
       background: #FFF3D8;
       color: #5C4A52;
