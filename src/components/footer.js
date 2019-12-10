@@ -3,7 +3,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => (
-  <footer>
+  <footer role="contentinfo">
     <div className="container-footer">
       <div>
       <a

@@ -14,8 +14,8 @@ const SubNav = styled.div`
 `
 
 const Header = () => (
-  <header>
-    <Navbar />
+  <header role="banner">
+    <Navbar role="navigation" />
     <SubNav>
       <p>
       Aiutami a creare ePub free e accessibili
