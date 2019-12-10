@@ -25,8 +25,7 @@ export default class NavbarIcons extends Component {
             <a
               href={item.path}
               key={item.id}
-              target="_blank"
-              rel="noopener noreferrer"
+              aria-label="Seguimi su Twitter"
             >
               {item.icon}
             </a>
