@@ -78,8 +78,8 @@ const query = graphql`
   query SEO {
     site {
       siteMetadata {
-        titleTemplate
         defaultTitle: title
+        titleTemplate
         defaultDescription: description
         siteUrl: url
         defaultImage: image

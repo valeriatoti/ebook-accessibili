@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -43,7 +43,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/data/`,
+        name: 'data',
+        path: `${__dirname}/src/data/`,
       },
     },
     `gatsby-transformer-sharp`,
