@@ -1,9 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: 'ebook accessibili',
-    author: '@valeria_toti',
-    image: "/images/ebook-accessibili.jpg",
-    siteUrl: 'https://www.ebookaccessibili.it',
+    title: 'Ebook Accessibili',
+    titleTemplate: '%s • ePub3 | A11Y',
+    description:
+      'Libri digitali per tutti: gli ebook che trovi qui sono adatti anche alle persone cieche e ipovedenti.',
+    url: 'https://www.ebookaccessibili.it', // No trailing slash allowed!
+    image: '/images/epub3-A11y.jpg', // Path to your image you placed in the 'static' folder
+    author: 'Valeria Toti',
+    twitterUsername: '@valeria_toti',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -25,15 +29,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'src',
-        path: `${__dirname}/src/`
-      }
+        path: `${__dirname}/src/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     `gatsby-transformer-json`,
     {
@@ -54,12 +58,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-130687964-1",
+        trackingId: 'UA-130687964-1',
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
         respectDNT: true,
-
       },
     },
     {
@@ -72,7 +75,7 @@ module.exports = {
           },
           {
             family: `Exo`,
-            variants: [`400`, `600`, `700`]
+            variants: [`400`, `600`, `700`],
           },
         ],
       },

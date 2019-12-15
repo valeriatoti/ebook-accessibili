@@ -5,7 +5,9 @@ import Layout from '../components/layout'
 const NotFoundPage = () => (
   <Layout>
     <h1>PAGINA NON TROVATA</h1>
-    <p>Questa pagina non esiste... Vai alla <Link to="/">Home</Link></p>
+    <p>
+      Questa pagina non esiste... Vai alla <Link to="/">Home</Link>
+    </p>
   </Layout>
 )
 
