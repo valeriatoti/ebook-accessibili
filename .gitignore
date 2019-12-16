@@ -6,6 +6,9 @@ yarn-error.log
 # Build directory
 /public
 
+# dotenv environment variable files
+.env*
+
 # Created by https://www.gitignore.io/api/macos
 
 ### macOS ###
