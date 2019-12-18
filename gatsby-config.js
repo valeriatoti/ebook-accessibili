@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ebook Accessibili',
     titleTemplate: '%s • ePub3 | A11Y',
+    siteLang: 'it',
     description:
       'Libri digitali per tutti: gli ebook che trovi qui sono adatti anche alle persone cieche e ipovedenti.',
     url: 'https://www.ebookaccessibili.it', // No trailing slash allowed!

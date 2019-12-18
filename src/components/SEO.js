@@ -11,8 +11,10 @@ const SEO = ({ title, description, image, pathname, article }) => (
         siteMetadata: {
           defaultTitle,
           titleTemplate,
+          siteLang,
           defaultDescription,
           siteUrl,
+          author,
           defaultImage,
           twitterUsername,
         },
@@ -25,12 +27,47 @@ const SEO = ({ title, description, image, pathname, article }) => (
         url: `${siteUrl}${pathname || '/'}`,
       }
 
+      // schema.org in JSONLD format
+      // https://developers.google.com/search/docs/guides/intro-structured-data
+
+      const schemaOrgWebPage = {
+        '@context': 'http://schema.org',
+        '@type': 'WebPage',
+        url: siteUrl,
+        inLanguage: siteLang,
+        mainEntityOfPage: siteUrl,
+        description: defaultDescription,
+        name: defaultTitle,
+        author: {
+          '@type': 'Person',
+          name: author,
+        },
+        copyrightHolder: {
+          '@type': 'Person',
+          name: author,
+        },
+        copyrightYear: '2019',
+        creator: {
+          '@type': 'Person',
+          name: author,
+        },
+        publisher: {
+          '@type': 'Person',
+          name: author,
+        },
+      }
+
       return (
         <>
           <Helmet title={seo.title} titleTemplate={titleTemplate}>
-            <html lang="it" />
+            <html lang={siteLang} />
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
+            {/* Schema.org tags */}
+            <script type="application/ld+json">
+              {JSON.stringify(schemaOrgWebPage)}
+            </script>
+            {/* “Open Graph” meta tags */}
             {seo.url && <meta property="og:url" content={seo.url} />}
             {(article ? true : null) && (
               <meta property="og:type" content="article" />
@@ -40,6 +77,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
               <meta property="og:description" content={seo.description} />
             )}
             {seo.image && <meta property="og:image" content={seo.image} />}
+            {/* TWITTER CARD*/}
             <meta name="twitter:card" content="summary_large_image" />
             {twitterUsername && (
               <meta name="twitter:creator" content={twitterUsername} />
@@ -80,6 +118,7 @@ const query = graphql`
       siteMetadata {
         defaultTitle: title
         titleTemplate
+        siteLang
         defaultDescription: description
         siteUrl: url
         defaultImage: image
