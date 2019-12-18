@@ -41,6 +41,16 @@ const SEO = ({ title, description, image, pathname, article }) => (
         author: {
           '@type': 'Person',
           name: author,
+          familyName: 'Toti',
+          givenName: 'Valeria',
+          jobTitle: 'Ebook developer',
+          description:
+            "Sono una freelance, sviluppo libri digitali accessibili che possono essere letti da tutti, anche dalle persone disabili. Con questo sito promuovo l'accessibilità digitale per un internet migliore.",
+          sameAs: [
+            'https://twitter.com/valeria_toti',
+            'https://github.com/valeriatoti',
+          ],
+          url: `${siteUrl}/about/`,
         },
         copyrightHolder: {
           '@type': 'Person',
