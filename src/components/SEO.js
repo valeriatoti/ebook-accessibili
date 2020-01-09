@@ -49,6 +49,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
           sameAs: [
             'https://twitter.com/valeria_toti',
             'https://github.com/valeriatoti',
+            'https://www.linkedin.com/in/valeria-toti/',
           ],
           url: `${siteUrl}/about/`,
         },

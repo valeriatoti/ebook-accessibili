@@ -24,18 +24,28 @@ export default class NavbarLinks extends Component {
         id: 3,
         path: '/about/',
         name: 'about',
-      }
+      },
     ],
   }
   render() {
     // console.log(this.props.navbarOpen)
+    const activeStyles = {
+      background: '#fff3d8',
+      color: '#5c4a52',
+      borderRadius: '2px',
+    }
 
     return (
       <LinkWrapper open={this.props.navbarOpen}>
         {this.state.links.map(item => {
           return (
             <li key={item.id}>
-              <Link to={item.path} className="nav-link">
+              <Link
+                to={item.path}
+                className="nav-link"
+                activeStyle={activeStyles}
+                partiallyActive={true}
+              >
                 {item.name}
               </Link>
             </li>
@@ -47,7 +57,7 @@ export default class NavbarLinks extends Component {
 }
 
 const LinkWrapper = styled.ul`
-margin: 0;
+  margin: 0;
   li {
     list-style-type: none;
     margin: 0;
@@ -56,14 +66,14 @@ margin: 0;
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem 0.4rem 1rem;
-    color: #FFF3D8;
+    color: #fff3d8;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
-    transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     &:hover {
-      background: #FFF3D8;
-      color: #5C4A52;
+      background: #fff3d8;
+      color: #5c4a52;
       border-radius: 2px;
     }
   }
@@ -77,7 +87,7 @@ margin: 0;
     display: flex;
     margin: 0 auto;
     .nav-link:hover {
-      background: #FFF3D8;
+      background: #fff3d8;
     }
   }
 `
