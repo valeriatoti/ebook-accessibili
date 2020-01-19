@@ -1,34 +1,36 @@
 [
-    {
-        "title": "TAO TE CHING",
-        "subtitle": "– Il grande libro della Via e della Virtù",
-        "author": "Lao Tzu",
-        "image": "../images/cover-tao-te-ching.jpg",
-        "alt": "Copertina dell'ebook: Tao Te Ching",
-        "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/tao-te-ching.epub?raw=true"
-    },
-    {
-       "title": "Le nuove tesi del Cluetrain Manifesto",
-       "subtitle": "",
-       "author": "Doc Searls & David Weinberger",
-       "image": "../images/cover-new-clues.jpg",
-       "alt": "Copertina dell'ebook: Cluetrian Manifesto",
-       "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/CluetrainManifesto.epub?raw=true"
-    },
-    {
-       "title": "AARON SWARTZ",
-       "subtitle": "– Una vita per la cultura libera e la giustizia sociale",
-       "author": "Aaron Swartz & altri",
-       "image": "../images/cover-aaron.jpg",
-       "alt": "Copertina dell'ebook: Aaron Swartz",
-       "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/AARON.epub?raw=true"
-    },
-    {
-       "title": "Il mondo dei Sensi e il mondo dello Spirito",
-       "subtitle": "",
-       "author": "Rudolf Steiner",
-       "image": "../images/steiner.jpg",
-       "alt": "Copertina dell'ebook: Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner",
-       "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/sensi-e-spirito.epub?raw=true"
-      }
+  {
+    "title": "TAO TE CHING",
+    "subtitle": "– Il grande libro della Via e della Virtù",
+    "author": "Lao Tzu",
+    "image": "../images/cover-tao-te-ching.jpg",
+    "alt": "Copertina dell'ebook: Tao Te Ching",
+    "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/tao-te-ching.epub?raw=true"
+  },
+  {
+    "title": "Le nuove tesi del Cluetrain Manifesto",
+    "subtitle": "",
+    "author": "Doc Searls & David Weinberger",
+    "image": "../images/cover-new-clues.jpg",
+    "alt": "Copertina dell'ebook: Cluetrian Manifesto",
+    "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/CluetrainManifesto.epub?raw=true"
+  },
+  {
+    "title": "AARON SWARTZ",
+    "subtitle": "– Una vita per la cultura libera e la giustizia sociale",
+    "author": "Aaron Swartz & altri",
+    "image": "../images/cover-aaron.jpg",
+    "alt": "Copertina dell'ebook: Aaron Swartz",
+    "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/AARON.epub?raw=true",
+    "description": "Realizzato in maniera collaborativa, l'e-book si apre con le traduzioni di alcuni suoi post e interventi sul web a partire dal 2006, a sottolineare l'eclettismo e la vastità d'interessi, la puntigliosità e finanche l'autocritica impietosa di Aaron. La seconda parte presenta invece una serie di testimonianze e ricordi da parte di chi ha condiviso con lui progetti e battaglie, sia come articoli online che direttamente in alcuni eventi pubblici svoltisi in Usa dopo la sua morte. L'ultima sezione è dedicata a materiali di base su open access e cultura libera, temi al centro del lavoro di Aaron e altresì collante di un impegno sociale che interessa da vicino tutti noi e soprattutto il futuro della conoscenza condivisa. Non manca, in chiusura, un'ampia raccolta di link e risorse web per approfondire i vari aspetti della questione, a seconda degli interessi individuali."
+  },
+  {
+    "title": "Il mondo dei Sensi e il mondo dello Spirito",
+    "subtitle": "",
+    "author": "Rudolf Steiner",
+    "image": "../images/steiner.jpg",
+    "alt": "Copertina dell'ebook: Il mondo dei Sensi e il mondo dello Spirito di Rudolf Steiner",
+    "download": "https://github.com/valeriatoti/ebook-accessibili/blob/master/src/download/sensi-e-spirito.epub?raw=true",
+    "description": "Avrete forse potuto rilevare, appunto da queste conferenze, quale essere complicato sia veramente l'uomo, e da quanti lati lo si debba studiare, per giungere alla sua essenza. Ora vogliamo soltanto accennare ancora a un fatto che, in certo modo, risulta uno dei più importanti dell'evoluzione quando, seguendo la indagine chiaroveggente, si considera il divenire dell'uomo da tempi molto remoti fino ad oggi, e ciò che per lui si prospetta nell'avvenire di tutto il genere umano. Nel corso di queste conferenze vi ho fatto osservare che, quando si educa la nostra facoltà di conoscenza, il nostro impulso verso la conoscenza in modo che l'anima umana, mentre lavora per conquistarsela, assume in sé gli stati che possiamo indicare come ammirazione, venerazione, saggia armonia coi fenomeni del mondo, e devozione di fronte alla vita universale: quando dunque l'anima si appropria questi stati d'animo, la conoscenza può a poco a poco innalzarsi a distinguere, in ciò che ci attornia, dove si ha da fare con qualcosa che è in divenire, che raggiungerà soltanto nel futuro la sua perfezione, e dall'altro lato dove si ha da fare con qualcosa che gradualmente perisce, si estingue, muore. Nella regione del nascere e morire percepiamo proprio siffatte cose. Abbiamo appunto accennato in modo speciale al fatto che la laringe umana è veramente un organo d'avvenire, destinato ad essere in futuro qualcosa di ben diverso da ciò ch'è attualmente. Oggi esso comunica soltanto al mondo esterno, per mezzo della parola, i nostri stati interiori, mentre in avvenire comunicherà tutto ciò che siamo noi stessi; vale a dire, servirà alla generazione dell'uomo intero, sarà l'organo di riproduzione dell'avvenire."
+  }
 ]
