@@ -32,32 +32,17 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
-            { name: 'google-site-verification', content: 'aWyogKEw31F9btd2WNcXjmb0sVQlGDFjYHA-6HNJEBY' },
+            {
+              name: 'google-site-verification',
+              content: 'aWyogKEw31F9btd2WNcXjmb0sVQlGDFjYHA-6HNJEBY',
+            },
           ]}
         >
           <html lang="it" />
-
-          <script type="application/ld+json">{`
-            {
-              "@context": "http://schema.org/",
-              "@type": "Person",
-              "name": "Valeria Toti",
-              "url": "https://www.ebookaccessibili.it/",
-              "image": "https://drive.google.com/open?id=1Benl_eVybk4vfs7XwJnsDhi3Lr0lVZtE",
-              "sameAs": "https://www.linkedin.com/in/valeria-toti/",
-              "jobTitle": "ebook developer",
-              "worksFor": {
-                "@type": "Organization",
-                "name": "ebookaccessibili.it"
-              }
-            }
-          `}</script>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Container>
-          {children}
-        </Container>
-        <Footer/>
+        <Container>{children}</Container>
+        <Footer />
       </>
     )}
   />

@@ -43,6 +43,7 @@ const IndexPage = () => (
           scegli il tuo ebook
         </Link>
       </h2>
+
       <div className="box-home-flex">
         <figure>
           <h3>EPUB&#160;3</h3>
