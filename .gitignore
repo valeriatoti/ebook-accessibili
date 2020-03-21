@@ -8,6 +8,7 @@ yarn-error.log
 
 # dotenv environment variable files
 .env*
+.env.development
 
 # Created by https://www.gitignore.io/api/macos
 
