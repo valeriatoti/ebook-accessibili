@@ -39,6 +39,10 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="it" />
+          <link
+            rel="nofollow"
+            href="/.well-known/brave-rewards-verification.txt"
+          />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Container>{children}</Container>
