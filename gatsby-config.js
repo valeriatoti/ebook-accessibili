@@ -67,21 +67,21 @@ module.exports = {
         respectDNT: true,
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Ubuntu`,
-            variants: [`400`, `400i`, `700`, `700i`],
-          },
-          {
-            family: `Exo`,
-            variants: [`400`, `600`, `700`],
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Ubuntu`,
+    //         variants: [`400`, `400i`, `700`, `700i`],
+    //       },
+    //       {
+    //         family: `Exo`,
+    //         variants: [`400`, `600`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     `gatsby-plugin-netlify`,
   ],
 }
