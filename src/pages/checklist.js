@@ -30,21 +30,16 @@ const ChecklistPage = () => (
       title="Checklist accessibilità"
       description="Qui trovi una checklist utile al momento della creazione di un ePub. Lista importante per verificare che i passi essenziali siano stati implementati: una solida base per un ebook accessibile. "
     />
-    <h1>Checklist</h1>
+    <h1 id="checklist">Checklist per sviluppatori di ePub</h1>
     <p>
-      Creare libri digitali accessibili è un processo impegnativo e — nelle
+      <strong>Creare libri digitali accessibili</strong> è un processo impegnativo e — nelle
       varie fasi di questo processo — si rischia di dimenticare qualcosa di
-      importante o di non rispettare i requisiti di accessibilità. Quindi, per
-      non sbagliare e non tralasciare nulla, ho stilato una <b>checklist</b>. È
-      una buona base di partenza per garantire l'accessibilità dell'ePub. Forse
-      nel tuo caso questa lista potrebbe non risultare esaustiva, allora puoi
-      fare riferimento alla{' '}
-      <Link to="/risorse/">documentazione sull'accessibilità digitale</Link>.
+      importante o di non rispettare i requisiti di accessibilità. Pertanto, ho stilato una <strong>checklist</strong> da utilizzare durante la fase di sviluppo.
     </p>
-    <Checklist>
+    <Checklist aria-labelledby="checklist" role="group">
       <li>
         <label>
-          <input type="checkbox" aria-describedby="lang-html" />
+          <input type="checkbox" />
           <code>
             <b>html</b> lang="it" xml:lang="it"
           </code>
@@ -52,7 +47,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="title-tag" />
+          <input type="checkbox" />
           <code>
             <b>title</b>
           </code>
@@ -60,7 +55,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="cover" />
+          <input type="checkbox" />
           <code>
             <b>body</b> epub:type="cover"
           </code>
@@ -68,7 +63,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="frontmatter" />
+          <input type="checkbox" />
           <code>
             <b>body</b> epub:type="frontmatter"
           </code>
@@ -76,7 +71,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="bodymatter" />
+          <input type="checkbox" />
           <code>
             <b>body</b> epub:type="bodymatter"
           </code>
@@ -84,7 +79,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="backmatter" />
+          <input type="checkbox" />
           <code>
             <b>body</b> epub:type="backmatter"
           </code>
@@ -92,7 +87,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="titlepage" />
+          <input type="checkbox" />
           <code>
             <b>section</b> epub:type="titlepage"
           </code>
@@ -100,7 +95,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="credits" />
+          <input type="checkbox" />
           <code>
             <b>section</b> epub:type="credits" role="doc-credits"
           </code>
@@ -108,7 +103,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="foreword" />
+          <input type="checkbox" />
           <code>
             <b>section</b> epub:type="foreword" role="doc-foreword"
           </code>
@@ -116,7 +111,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="chapter" />
+          <input type="checkbox" />
           <code>
             <b>section</b> epub:type="chapter" role="doc-chapter"
           </code>
@@ -124,7 +119,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="afterword" />
+          <input type="checkbox" />
           <code>
             <b>section</b> epub:type="afterword" role="doc-afterword"
           </code>
@@ -132,7 +127,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="nav" />
+          <input type="checkbox" />
           <code>
             <b>nav</b> epub:type="toc" role="doc-toc"
           </code>
@@ -140,7 +135,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="landmarks" />
+          <input type="checkbox" />
           <code>
             <b>nav</b> epub:type="landmarks" role="directory"
           </code>
@@ -148,7 +143,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="page-list" />
+          <input type="checkbox" />
           <code>
             <b>nav</b> epub:type="page-list" hidden="hidden"
           </code>
@@ -156,7 +151,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="page-pagebreak" />
+          <input type="checkbox" />
           <code>
             <b>span</b> epub:type="page-pagebreak" role="doc-pagebreak"
           </code>
@@ -172,7 +167,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="img-alt" />
+          <input type="checkbox" />
           <code>
             <b>img</b> epub:type="doc-cover"
           </code>
@@ -180,7 +175,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="img-alt" />
+          <input type="checkbox" />
           <code>
             <b>img</b> alt="" role="presentation"
           </code>
@@ -192,7 +187,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="img-long-description" />
+          <input type="checkbox" />
           <code>Descrizione lunga dell'immagine</code>
         </label>
         <p id="img-long-description">
@@ -203,7 +198,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="accessibility-metadata" />
+          <input type="checkbox" />
           <code>Metadati schema.org</code>
         </label>
         <p id="accessibility-metadata">
@@ -214,7 +209,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="onix-file" />
+          <input type="checkbox" />
           <code>ONIX lista 196</code>
         </label>
         <p id="onix-file">
@@ -225,7 +220,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="epubcheck" />
+          <input type="checkbox" />
           <code>Convalida dell'ePub</code>
         </label>
         <p id="epubcheck">
@@ -234,7 +229,7 @@ const ChecklistPage = () => (
       </li>
       <li>
         <label>
-          <input type="checkbox" aria-describedby="ace" />
+          <input type="checkbox" />
           <code>Convalida dell'accessibilità</code>
         </label>
         <p id="ace">
