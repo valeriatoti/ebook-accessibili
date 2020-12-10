@@ -1,7 +1,3 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
   siteMetadata: {
     title: 'Ebook Accessibili',
@@ -69,13 +65,6 @@ module.exports = {
         anonymize: true,
         // Setting this parameter is also optional
         respectDNT: true,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-verify-brave',
-      options: {
-        token: 'process.env.BRAVE_TOKEN',
-        domain: 'ebookaccessibili.it',
       },
     },
     // {
