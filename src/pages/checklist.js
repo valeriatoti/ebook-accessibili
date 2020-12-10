@@ -33,7 +33,7 @@ const ChecklistPage = () => (
     <p>
       <strong>Creare libri digitali accessibili</strong> è un processo impegnativo e — nelle
       varie fasi di questo processo — si rischia di dimenticare qualcosa di
-      importante o di non rispettare i requisiti di accessibilità. Pertanto, ho stilato una <strong>checklist</strong> da utilizzare durante la fase di sviluppo.
+      importante o di non rispettare i requisiti di accessibilità. Pertanto, ho stilato una <strong>checklist</strong> da utilizzare durante la fase di sviluppo:
     </p>
     <Checklist aria-labelledby="checklist" role="group">
       <li>
