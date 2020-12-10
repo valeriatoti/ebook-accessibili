@@ -47,7 +47,7 @@ const Footer = () => (
       />
       </a>
 
-      <p>copyright © 2019 ebookaccessibili.it</p>
+      <p>copyright © 2020 ebookaccessibili.it</p>
       <p>Valeria Toti — P. IVA 13150691007 | Contatti: <strong>valeria@ebookaccessibili.it</strong></p>
       </div>
 
